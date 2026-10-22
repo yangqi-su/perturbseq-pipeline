@@ -8,7 +8,7 @@ Code review of `src/perturbseq_pipeline/`, started 2026-10-03, consolidated 2026
 - Merged (ours): #7 knockdown filter (`3164a97`); #8 reformat (`78e8510`); #9 MSigDB gene sets + gseapy enrichment (`238f3ef`); #16 knockdown non-carrier baseline (`195fb8d`, 8.7).
 - Merged (others): #10 four P0s, including 2.1 and 11.2 (`c2e3501`); #11 nine P1s, including 11.17 (`bef4abb`); #12-#15 high-MOI mode (membership calling, membership-aware statistics, per-cell scores on membership, joint membership regression; `dd9a34f`..`9e26f8b`). Entries marked fixed by #10/#11 are taken from the PR descriptions, not re-checked here. Items in sections 2-14 were not re-checked against the high-MOI code.
 - Open: #17 guide calling, fishash + Poisson-Gaussian mixture (`feat/guide-calling-fishash-pgmm`, `3d4376d`; section 15).
-- Worktrees: `data_perturb_v2/worktrees/pp-guide-calling` (#17), `data_perturb_v2/worktrees/pp-kd-non-carriers` (#16, merged, can be removed).
+- Worktrees: `data_perturb_v2/worktrees/pp-guide-calling` (#17), `data_perturb_v2/worktrees/pp-notes` (this file, branch `notes`; symlinked into every checkout). `pp-kd-non-carriers` and `feat/kd-non-carrier-baseline` removed after #16 merged.
 - Package size: 42.0k lines originally → 21.7k on `feat/msigdb-gene-sets`; not re-measured after #10-#17. Remaining size work: sections 13-14 (~4-5k more).
 
 How to read the evidence column:
